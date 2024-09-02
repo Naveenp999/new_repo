@@ -182,7 +182,9 @@ nav [class*="fa-"]:hover {
     color: white;
     background-color: var(--hotmag);
 }
-
+.small-name{
+    font-size: 10px;
+}
 
 /* projects section */
 
@@ -231,6 +233,14 @@ nav [class*="fa-"]:hover {
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
+}
+.link{
+    color: var(--aqua);
+    font-size:10px;
+    margin-bottom:10px;
+    @media screen and (min-width:768px){
+        font-size: 15px;
+    }
 }
 
 
